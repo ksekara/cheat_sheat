@@ -6,3 +6,11 @@ nohup jupyter-lab --ip 0.0.0.0 --no-browser --allow-root &
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=firstEnv
 '''
+
+installing jupyter server
+'''
+conda create -n influencer python==3.9
+pip install juypterlab
+jupyter notebook --generate-config
+jupyter notebook password
+'''
