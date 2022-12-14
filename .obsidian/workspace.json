@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EC2.md",
+                "file": "Amzon linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EC2.md",
+                "file": "Amzon linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EC2.md",
+                "file": "Amzon linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EC2.md"
+                "file": "Amzon linux.md"
               }
             }
           }
@@ -187,10 +187,11 @@
   },
   "active": "7d83876454b749e3",
   "lastOpenFiles": [
+    "EC2.md",
+    "Linux.md",
+    "Kubernetes.md",
     "Jupyter.md",
     "Amzon linux.md",
-    "Kubernetes.md",
-    "Linux.md",
     "read.md"
   ]
 }

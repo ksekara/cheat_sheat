@@ -7,7 +7,7 @@ conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=firstEnv
 '''
 
-installing jupyter server
+### installing jupyter server
 '''
 conda create -n influencer python==3.9
 pip install juypterlab
