@@ -10,7 +10,7 @@ python -m ipykernel install --user --name=firstEnv
 ### installing jupyter server
 '''
 conda create -n influencer python==3.9
-pip install juypterlab
+pip install jupyterlab
 jupyter notebook --generate-config
 jupyter notebook password
 '''
