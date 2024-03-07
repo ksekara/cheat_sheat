@@ -73,7 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EC2.md",
+                "file": "Jupyter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c41137c8d9e2126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jupyter.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EC2.md",
+                "file": "Jupyter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EC2.md",
+                "file": "Jupyter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EC2.md"
+                "file": "Jupyter.md"
               }
             }
           }
@@ -251,11 +263,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6fae429e8da5cdc",
+  "active": "9c41137c8d9e2126",
   "lastOpenFiles": [
-    "Jupyter.md",
-    "EC2.md",
     "Kubernetes.md",
+    "EC2.md",
+    "Jupyter.md",
     "Linux.md",
     "Amzon linux.md",
     "read.md",
