@@ -1,16 +1,15 @@
 ## IF runner is not connected try followings
 
-'''
+```
 gitlab-runner --debug run
-
+```
 or
-
+```
 gitlab-runner verfiy
-
-'''
+```
 
 ## If getting this error failed to dial gRPC: cannot connect to the Docker daemon. Is 'docker daemon' running on this host?: dial unix /var/run/docker.sock: connect: no such file or directory
-
+```
 [[runners]]
   name = "ec2-dockerrunner-csp"
   url = "https://gitlab.com"
@@ -31,3 +30,5 @@ gitlab-runner verfiy
     volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
     shm_size = 0
     network_mtu = 0
+
+```
