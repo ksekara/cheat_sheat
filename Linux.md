@@ -16,3 +16,14 @@ mount /dev/sdb1 /media/external-hard/
 ```
 sudo rsync -av /media/external-hard/<folder> /home/user1
 ```
+
+### For error user1@123.231.95.165: Permission denied (publickey,gssapi-keyex,gssapi-with-mic)
+```
+check 
+systemctl status sshd
+if 
+bad ownership
+chmod go-w /home/user1
+chmod 700 /home/user1/.ssh
+chomd 600 /home/user1/.ssh/authorized_keys
+```
