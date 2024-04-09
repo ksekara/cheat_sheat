@@ -27,3 +27,4 @@ chmod go-w /home/user1
 chmod 700 /home/user1/.ssh
 chomd 600 /home/user1/.ssh/authorized_keys
 ```
+https://chemicloud.com/kb/article/ssh-authentication-refused-bad-ownership-or-modes-for-directory/
